@@ -1,5 +1,11 @@
 body{
+    width: 7000px;
+    height: 10000px;
+
+}
+main{
     width: 3508px;
     height: 4961px;
     background-color: #48C9B0;
+
 }
