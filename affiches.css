@@ -1,11 +1,18 @@
 body{
     width: 7000px;
     height: 10000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 main{
     width: 3508px;
     height: 4961px;
     background-color: #48C9B0;
-
+    display: grid;
+    grid-template: 5% 1fr 10% /1fr;
+}
+.head, .bas{
+    background-color: #2980B9;
 }
