@@ -7,12 +7,17 @@ body{
 
 }
 main{
+    overflow: hidden;
+    position: relative;
     width: 3508px;
     height: 4961px;
     background-color: #48C9B0;
     display: grid;
-    grid-template: 5% 1fr 10% /1fr;
-}
+    grid-template: 5% 1fr 10% /1fr;}
 .head, .bas{
+    width: 200%;
+    top: -83px;
+    position: relative;
+    transform: rotate(1.5deg);
     background-color: #2980B9;
-}
+    }
