@@ -5,8 +5,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: yellow;
-
-}
+    }
 main{
     overflow: hidden;
     position: relative;
@@ -32,6 +31,47 @@ main{
     grid-template: 1fr 4fr / 1fr;
 }
 .blanc{
-    background-color: white;
+    background-color: #fafafa;
 
+}
+
+.middle{
+    display: grid;
+    grid-template: 5fr 6fr 5fr / 1fr;
+}
+
+.cases{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container_1{
+    justify-content: flex-start;
+    }
+    .container_1>div{
+        background-color: #3498DB;
+        }
+.container_2{
+    justify-content: flex-end;
+    }
+    .container_2>div{
+        background-color: #F0F3F4;
+        }
+.container_3{
+    justify-content: flex-start;
+    }
+    .container_3>div{
+        background-color: #C0392B;
+        }
+
+.case{
+    width: 75%;
+    height: 60%;
 }
