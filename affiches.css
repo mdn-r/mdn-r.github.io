@@ -56,22 +56,30 @@ main{
     justify-content: flex-start;
     }
     .container_1>div{
+        transform: rotate(1.5deg);
         background-color: #3498DB;
+        left: -25%;
         }
 .container_2{
     justify-content: flex-end;
     }
     .container_2>div{
+        right: -25%;
         background-color: #F0F3F4;
+        transform: rotate(-1.5deg);
         }
 .container_3{
     justify-content: flex-start;
     }
     .container_3>div{
         background-color: #C0392B;
+        left: -25%;
+        transform: rotate(-1.5deg);
         }
 
 .case{
-    width: 75%;
-    height: 60%;
+    width: 100%;
+    height: 70%;
+    position: relative;
+
 }
